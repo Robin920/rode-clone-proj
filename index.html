@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            mygold: '#A77B06',
+            mygrey: '#758283',
+            lightgold: '#AF9D5A'
+          }
+        }
+      }
+    }
+  </script>
+    <title>Rode clone</title>
+</head>
+<body>
+    <nav class="flex flex-col">
+      <div class="flex justify-between px-12 py-1 bg-white">
+        <div class="flex gap-x-1">
+            <img class="h-7" src="./assets/icons8-location-24.png" alt="location">
+            <h2 class="text-mygrey">EN</h2>
+        </div>
+        <img class="h-7" src="./assets/icons8-person-64.png" alt="person">
+      </div>
+      <hr>
+
+      <div class="flex flex-row justify-between items-center px-12 py-1 bg-white ">
+        <h1 class="text-black text-xl font-bold">RØDE</h1>
+        <div class="hidden md:flex gap-x-6 text-lg">
+            <a href="#">PRODUCTS</a>
+            <a href="#">USER GUIDS</a>
+            <a href="#">SOLUTIONS</a>
+            <a href="#">APPAREL</a>
+            <a href="#">SUPPORT</a>
+        </div>
+        <img class="w-6" src="./assets/icons8-search.svg" alt="search">
+      </div>
+      <hr>
+
+      <div class="flex justify-between px-12 py-1 bg-white">
+        <p>Products / The Revolution Is Here</p>
+      </div>
+    </nav>
+
+    <!-- hero body -->
+    <div class="bg-black px-10 py-4 flex flex-col justify-center items-center">
+        <div>
+            <img src="https://edge.rode.com/images/page/2008/modules/5513/rcpii-engagement-banner-mobile-3.jpg" alt="rode">
+
+            <h3 class="text-lightgold font-semibold text-xl text-center mt-[1.5em] mb-[1em]">The Revolution is Here</h3>
+            <div class="flex gap-x-2 items-center justify-center">
+                <button type="button" class="px-8 py-3 font-semibold rounded-full hover:text-mygold text-white bg-mygold hover:bg-white">Buy Now</button>
+                <h3 class="text-mygold text-lg font-semibold">LEARN MORE ></h3>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center mt-[3em] mb-[1em] p-7 mx-20">
+            <h1 class="text-2xl text-white font-bold">
+                Say Hello to the RØDECaster Pro II
+            </h1>
+            <h2 class="text-sm text-mygrey text-lg">
+                The world’s most powerful all-in-one audio production solution. Combining tens of thousands of dollars’ worth of studio equipment
+                into one easy-to-use console, this is all you need to record incredible audio for any content you're creating.
+            </h2>
+        </div>
+
+        <div class="mt-[2em] mb-[1.5em] flex justify-center items-center ">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/AzI7YC-l8oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+    
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-wrap -m-4">
+                    <div class="p-4 lg:w-1/4 md:w-1/3">
+                      <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://rode.com/assets/images%2Fpage%2F2008%2Fmodules%2F5526%2Fimage-1.jpg">
+                        <div class="w-full">
+                          <h2 class="title-font font-medium text-lg text-gray-900">Streamers and Gamers</h2>
+                          <p class="mb-4">
+                            Take full control of your on-stream audio and create content that stands above the rest.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="p-4 lg:w-1/4 md:w-1/3">
+                      <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://rode.com/assets/images%2Fpage%2F2008%2Fmodules%2F5527%2Fimage-v2-podcasters.jpg">
+                        <div class="w-full">
+                          <h2 class="title-font font-medium text-lg text-gray-900">Podcasters</h2>
+                          <p class="mb-4">Create professional-quality podcasts
+                            with absolute ease.</p>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="p-4 lg:w-1/4 md:w-1/3">
+                      <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://rode.com/assets/images%2Fpage%2F2008%2Fmodules%2F5528%2Fimage-3.jpg">
+                        <div class="w-full">
+                          <h2 class="title-font font-medium text-lg text-gray-900">Musicians</h2>
+                          <p class="mb-4">Record with pristine audio quality and features that inspire creativity.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </div>
+
+        <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://edge.rode.com/images/page/2008/modules/5519/conten-creation-made-easy-module_1080x1080.jpg">
+                <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 self-center">
+                  <h1 class="text-white text-4xl title-font font-medium mb-1">Content Creation Made Easy</h1>
+                  <p class="leading-relaxed text-mygrey">
+                    No matter what kind of content you’re creating, the RØDECaster Pro II makes recording incredible audio incredibly simple. Get set up in seconds. Navigate and control every feature with ease. Achieve pro-quality audio processing with the twist of a knob. Exceptional audio, no experience required.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 self-center">
+                  <h1 class="text-white text-4xl title-font font-medium mb-1">Sound Incredible Every Time You Hit Record</h1>
+                  <p class="leading-relaxed text-mygrey">
+                    The RØDECaster Pro II is expertly crafted to make you sound incredible every time you hit record. Every feature serves to elevate your audio and inspire you to create content you never thought possible.
+                  </p>
+                </div>
+                <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://edge.rode.com/images/page/2008/modules/5520/sound-incredible-every-time-you-hit-record-module_1080x1080.jpg">
+              </div>
+            </div>
+          </section>
+
+        <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 self-center">
+                  <h1 class="text-white text-4xl title-font font-medium mb-1">Customise to Your Creative Vision</h1>
+                  <p class="leading-relaxed text-mygrey">
+                    Every stream, every podcast, every song is different. The RØDECaster Pro II understands this and can adapt to your creative vision. Customise it to suit your content, setup, workflow (even if that's constantly changing).
+                  </p>
+                </div>
+                <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://edge.rode.com/images/page/2008/modules/5524/customise-your-creative-vision-module_1080x1080.jpg">
+              </div>
+            </div>
+        </section>
+
+        <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://edge.rode.com/images/page/2008/modules/5523/rode-rodecaster-pro-II-live-module-asset-1080x1080-rgb.jpg">
+                <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 self-center">
+                  <h1 class="text-white text-4xl title-font font-medium mb-1">Connect With Your Audience</h1>
+                  <p class="leading-relaxed text-mygrey">
+                    Your audience is more likely to connect with incredible sounding, unique content. Unlock your full potential and give them the audio they deserve with the RØDECaster Pro II.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 self-center">
+                  <h1 class="text-white text-4xl title-font font-medium mb-1">Streamline Your Workflow</h1>
+                  <p class="leading-relaxed text-mygrey">
+                    The RØDECaster Pro II offers unrivalled connectivity with all your devices, unlocking more creative possibilities, more streamlined workflows, and easier integration with other equipment than ever before. The perfect audio control centre for any creator.
+                  </p>
+                </div>
+                <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://edge.rode.com/images/page/2008/modules/5525/module_3.jpg">
+              </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="flex flex-col bg-white py-10">
+        <hr class="mt-6">
+        <div class="flex justify-between items-center px-16">
+            <img src="https://cdn.rode.com/website/images/logo/RODE_logo_142x85_desktop_light_mode.svg" alt="logo">
+            <div class="hidden md:flex flex-col gap-x-2">
+                <h2 class="font-bold text-lg text-black">Products</h2>
+                <h2 class="font-light text-lg text-mygrey">Microphones</h2>
+                <h2 class="font-light text-lg text-mygrey">Headphones</h2>
+                <h2 class="font-light text-lg text-mygrey">Interfaces and Mixters</h2>
+                <h2 class="font-light text-lg text-mygrey">Microphones</h2>
+                <h2 class="font-light text-lg text-mygrey">Microphones</h2>
+                <h2 class="font-light text-lg text-mygrey">Microphones</h2>
+            </div>
+
+            <div class="hidden md:flex flex-col gap-x-2">
+                <h2 class="font-bold text-lg text-black">Products</h2>
+                <h2 class="font-light text-lg text-mygrey">Microphones</h2>
+                <h2 class="font-light text-lg text-mygrey">Headphones</h2>
+                <h2 class="font-light text-lg text-mygrey">Interfaces and Mixters</h2>
+                <h2 class="font-light text-lg text-mygrey">Microphones</h2>
+                <h2 class="font-light text-lg text-mygrey">Microphones</h2>
+                <h2 class="font-light text-lg text-mygrey">Microphones</h2>
+            </div>
+
+            <div class="hidden md:flex flex-col gap-x-2">
+                <h2 class="font-bold text-lg text-black">Company</h2>
+                <h2 class="font-light text-lg text-mygrey">Microphones</h2>
+                <h2 class="font-light text-lg text-mygrey">Headphones</h2>
+                <h2 class="font-light text-lg text-mygrey">Interfaces and Mixters</h2>
+                <h2 class="font-light text-bold text-mygrey">Accounts</h2>
+                <h2 class="font-light text-lg text-mygrey">Microphones</h2>
+                <h2 class="font-light text-lg text-mygrey">Microphones</h2>
+            </div>
+
+            <div class="flex flex-col">
+                <h1 class="hidden md:block text-semibold text-2xl mb-2">Subscribe to our latest<br> news and offers</h1>
+                <button type="button" class="px-8 py-3 font-semibold rounded-full hover:text-mygold text-white bg-mygold hover:bg-white">Buy Now</button>
+            </div>
+        </div>
+        <hr class="mt-6">
+
+        <div class="flex justify-between items-center px-12 pt-2">
+            <h2 class="text-sm text-mygrey">© 2022 RØDE All Rights Reserved.</h2>
+            <h2 class="hidden md:block text-sm text-mygrey">Privacy Policy
+                |
+                Terms & Conditions
+            </h2>
+            <div class="flex gap-x-3">
+                <img class="w-6" src="./assets/facebook-svgrepo-com.svg" alt="fb">
+                <img class="w-6" src="./assets/twitter-svgrepo-com.svg" alt="twitter">
+                <img class="w-6" src="./assets/youtube-svgrepo-com.svg" alt="yt">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
